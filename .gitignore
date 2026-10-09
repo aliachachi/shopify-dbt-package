@@ -1,0 +1,17 @@
+﻿.venv/
+__pycache__/
+*.pyc
+
+.env
+.env.*
+!.env.example
+
+.user.yml
+profiles.yml
+
+target/
+dbt_packages/
+logs/
+
+*service-account*.json
+*credentials*.json

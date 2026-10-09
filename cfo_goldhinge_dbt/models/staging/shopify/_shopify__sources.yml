@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+
+  - name: shopify
+    description: >
+      Gold Hinge Shopify data ingested into BigQuery through Airbyte.
+
+    database: cfo-data-dev
+    schema: raw_goldhing
+
+    tables:
+
+      - name: shopify_orders
+
+      - name: shopify_customers
+
+      - name: shopify_products
+
+      - name: shopify_product_variants
+
+      - name: shopify_order_refunds
